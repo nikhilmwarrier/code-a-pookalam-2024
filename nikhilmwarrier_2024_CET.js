@@ -10,8 +10,6 @@ function setup() {
 }
 
 function draw() {
-  const animConstant = 0.05 * frameCount;
-
   translate(C_X, C_Y); // Sets origin to centre of screen
   background(0, 0, 100);
 
